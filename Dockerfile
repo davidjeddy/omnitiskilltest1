@@ -3,4 +3,4 @@ RUN apt-get update -y
 RUN apt-get install -y iputils-ping
 RUN apt-get clean
 COPY ./ /app
-CMD ["/app/index.php"]
+CMD ["php", "/app/index.php"]
