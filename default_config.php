@@ -5,8 +5,8 @@ $config = [
         'surge.omniti.com',
         'ansible-dk.org',
     ],
-    'length' => 5,
-    'interval' => 1
+    'length' => 60,
+    'interval' => 10
 ];
 
 
